@@ -1,0 +1,27 @@
+{
+  "name": "json-to-custom-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "security": "nsp check",
+    "lint": "standard",
+    "test": "NODE_ENV=test mocha",
+    "cover": "NODE_ENV=test istanbul cover _mocha -- -R tap > test-reports.tap && istanbul report html"
+  },
+  "bin" : {
+    "json2env" : "./bin/index.js"
+  },
+  "standard": {
+    "global": [
+      "describe",
+      "it",
+      "before"
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^3.0.0"
+  }
+}
