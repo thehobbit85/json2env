@@ -1,7 +1,7 @@
 {
   "name": "json-to-custom-env",
   "version": "1.0.1",
-  "description": "",
+  "description": "Creates a Custom Env file for Config.js from a JSON file",
   "main": "index.js",
   "scripts": {
     "security": "nsp check",
