@@ -1,4 +1,4 @@
-# Create Custom Env file for Config.js from a JSON file
+# Creates a Custom Env file for Config.js from a JSON file
 
 ### install
 ```shell
