@@ -1,6 +1,6 @@
 {
   "name": "json-to-custom-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "test": "NODE_ENV=test mocha",
     "cover": "NODE_ENV=test istanbul cover _mocha -- -R tap > test-reports.tap && istanbul report html"
   },
-  "bin" : {
-    "json2env" : "./bin/index.js"
+  "bin": {
+    "json2env": "./bin/index.js"
   },
   "standard": {
     "global": [
